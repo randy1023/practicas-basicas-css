@@ -1,0 +1,140 @@
+h1{
+    background-color: aqua;
+}
+
+p {
+    color: midnightblue;
+    
+}
+
+#parrafo-dos{
+    background-color: aquamarine;
+}
+
+.bg-skyblue{
+    background-color: skyblue;
+}
+
+.bg-steelblue{
+    background-color: steelblue;
+}
+
+.text-20{
+    font-size: 20px;
+}
+
+.text-32{
+    font-size: 32px;
+}
+
+.text-white{
+    color: white;
+}
+
+.hijos-directos > li {
+    background-color: blueviolet;
+}
+
+.hijos-descendientes b {
+    background-color: blueviolet;
+}
+
+.hermanos-general ~ li{
+    background-color: blueviolet;
+}
+
+.hermanos-adyacentes + li {
+    background-color: blueviolet;
+}
+
+.selectores-atributos a[href]{
+    color:orangered;
+}
+
+.selectores-atributos a[target="_blank"]{
+    font-weight: bold;
+}
+
+.selectores-atributos a[href*="jonmircha"]{
+    font-size: 24px;
+}
+
+.selectores-atributos a[href^="http://"]{
+    text-decoration: none;
+}
+
+.selectores-atributos a[href$=".com"]{
+    background-color: black;
+}
+
+.form-pseudoclases *:required{
+    border-color: yellow;
+}
+
+.form-pseudoclases *:valid{
+    border-color: green;
+}
+
+.form-pseudoclases *:focus{
+    background-color: aqua;
+}
+
+.menu-pseudoclase a:visited{
+    color: green;
+}
+
+.menu-pseudoclase a:hover{
+    color: orange;
+}
+
+.p-pseudoclase:hover{
+    font-size: 26px;
+}
+
+#temario-css:target{
+    background-color: lightgreen;
+}
+
+.lista-pseudoclase li:first-child{
+    color: green;
+}
+
+.lista-pseudoclase li:last-child{
+    color: yellow;
+}
+
+.lista-pseudoclase li:nth-child(3){
+    color: navy;
+}
+
+.lista-pseudoclase li:nth-child(4n){
+  font-size: 20px;
+}
+
+.lista-pseudoclase li:nth-child(even){
+    background-color: yellow;
+}
+
+.lista-pseudoclase li:nth-child(odd){
+    background-color: brown;
+}
+
+.articulo-pseudoclase p:first-of-type{
+    color: chartreuse;
+}
+
+.articulo-pseudoclase p:last-of-type{
+    color: brown;
+}
+
+.gama::before{
+    content: "📱";
+}
+.gama-precio::before{
+    content: "$";
+    font-weight: bold;
+}
+.gama-precio::after{
+    content: "USD";
+    font-weight: bold;
+}

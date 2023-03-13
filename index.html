@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css & html</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+   <article id="temario-css">
+    <h1>Practicas css</h1>
+    <h2>Temario del curso</h2>
+
+    <ul>
+        <li><a href="index.html#selectores-basicos">Selectores basicos</a></li>
+        <li><a href="index.html#selectores-avanzados">Selectores avanzados</a></li>
+        <li><a href="index.html#pseudo-clases">PseudoClases</a></li>
+        <li><a href="index.html#pseudoelementos">Pseudoelementos</a></li>
+        <li><a href="Indez.html">Ejercicios</a></li>
+    </ul>
+   </article>
+    <hr>
+    <article id="selectores-basicos">
+        <h2>Selectores basicos</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nobis explicabo, provident obcaecati saepe distinctio quis alias commodi. Tempora inventore commodi facere hic qui? Accusantium voluptatum in rem doloribus. Iusto?</p>
+
+        <p id="parrafo-dos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque non repellat iste quis excepturi id itaque possimus. Dolore culpa ad aperiam assumenda dolorem in atque quasi, rerum exercitationem, eius aliquid.</p>
+
+        <p class="text-32 bg-skyblue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nam commodi minus illo error, itaque ut assumenda atque optio, veniam animi natus esse harum recusandae suscipit nulla, dolorum ipsa obcaecati.</p>
+        <p class="text-20 bg-steelblue text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quae aspernatur voluptatum, provident eligendi dolorum, totam tempore, suscipit rerum quia vitae. Saepe quaerat soluta est laboriosam laborum, ullam iure aspernatur.</p>
+        <p class="text-32 bg-steelblue text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ab vitae? Placeat, facilis magni. Fugit, provident. Molestiae minus, dicta ex debitis voluptates velit, nulla id reprehenderit harum quod, mollitia tenetur?</p>
+
+
+        <a href="index.html#temario-css">☝️</a>
+    </article>
+    <hr>
+    <article id="selectores-avanzados">
+        <h2>Selectores avanzados</h2>
+
+        <h3>Selectores de hijos</h3>
+
+        <h4>Selectores de hijos directos</h4>
+
+        <ul class="hijos-directos">
+            <li><b>Primavera</b></li>
+            <li><b>Verano</b></li>
+            <li><b>Otoño</b></li>
+            <li><b>Invierno</b></li>
+        </ul>
+
+        <h4>Selectores de hijos descendientes</h4>
+
+         <ul class="hijos-descendientes">
+            <li><b>Primavera</b></li>
+            <li><b>Verano</b></li>
+            <li><b>Otoño</b></li>
+            <li><b>Invierno</b></li>
+         </ul>
+
+         <h3>Selectores de hermanos</h3>
+
+         <h4>selector de hermanos(En general)</h4>
+
+         <ul>
+            <li><b>Primavera</b></li>
+            <li><b>Verano</b></li>
+            <li class="hermanos-general"><b>Otoño</b></li>
+            <li><b>Invierno</b></li>
+        </ul>
+
+         <h4>Selector de hermanos(adyacentes)</h4>
+
+         <ul>
+            <li><b>Primavera</b></li>
+            <li class="hermanos-adyacentes"><b>Verano</b></li>
+            <li><b>Otoño</b></li>
+            <li><b>Invierno</b></li>
+        </ul>
+
+        <h3>Selectores de atributos</h3>
+        <nav class="selectores-atributos">
+            <ul>
+                <li><a href="https://jonmircha.com" target="_blank">Inicio</a></li>
+                <li><a href="http://jonmircha.com/cursos" target="_blank">Cursos</a></li>
+                <li><a href="https://jonmircha.com/Blog" target="_blank">Blog</a></li>
+                <li><a href="http://jonmircha.com/Notas" target="_blank">Notas</a></li>
+                <li><a href="https://jonmircha.com/CV" target="_blank">CV</a></li>
+                <li><a href="http://jonmircha.com/Ahora" target="_blank">Ahora</a></li>
+            </ul>
+        </nav>
+         <a href="index.html#temario-css">☝️</a>
+    </article>
+    <hr>
+    <article id="pseudo-clases">
+        <h2>PseudoClases</h2>
+        <form action="" class="form-pseudoclases">
+            <input type="text" name="nombre" placeholder="Escribe tu nombre" required>
+            <br>
+            <input type="email" name="correo" placeholder="Escribe tu correo" required>
+            <br>
+            <input type="submit">
+        </form>
+        <nav class="menu-pseudoclase">
+            <a href="#seccion1">seccion 1</a>
+            <a href="#seccion2">seccion 2</a>
+            <a href="#seccion3">seccion 3</a>
+            <a href="#seccion4">seccion 4</a>
+        </nav>
+
+        <p class="p-pseudoclase">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat officia ab itaque eos eius consequatur dolores, minus magnam blanditiis cumque repellendus vel, ducimus perspiciatis voluptas veniam libero obcaecati veritatis inventore.
+        </p>
+
+        <ol class="lista-pseudoclase">
+            <li>want</li>
+            <li>start</li>
+            <li>eat</li>
+            <li>travel</li>
+            <li>wake up</li>
+            <li>ligth</li>
+            <li>dark</li>
+            <li>lady</li>
+            <li>knowledge</li>
+            <li>goals</li>
+            <li>love</li>
+            <li>respond</li>
+        </ol>
+
+        <article class="articulo-pseudoclase">
+            <header>Este es un header</header>
+            <p>Esto es un p</p>
+            <div>esto es una div</div>
+            <p>Esto es un p</p>
+            <section>Este es una seccion</section>
+            <p>Esto es una p</p>
+            <div>Esto es una div</div>
+            <p>Esto es una p</p>
+            <footer>Este es un footer</footer>
+        </article>
+
+        <a href="index.html#temario-css">☝️</a>
+    </article>
+    <article id="pseudoelementos">
+        <h2>Pseudoelementos</h2>
+        <p>
+            <i>mi celular ultima version</i> <span class="gama"> 2023</span> <span class="gama-precio">500</span>
+        </p>
+        <a href="index.html#temario-css">☝️</a>
+    </article>
+
+    <article id="ejercicios">
+        <h2>Ejercicios</h2>
+
+        <a href="index.html#temario-css">☝️</a>
+    </article>
+    
+</body>
+</html>
